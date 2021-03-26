@@ -1,0 +1,42 @@
+{
+  "name": "@ngx-ext/decorators",
+  "version": "0.0.1",
+  "description": "Set of decorators making your life easier.",
+  "main": "index",
+  "types": "index",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "$(npm bin)/tsc -p tsconfig.json",
+    "prepare": "npm run build",
+    "publish:rc": "npm publish --tag=RC --access=public",
+    "publish:prod": "npm publish --access=public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ngx-ext/decorators.git"
+  },
+  "keywords": [
+    "angular",
+    "decorators",
+    "abstract",
+    "class",
+    "page",
+    "@AbstractClass",
+    "@Page",
+    "decorator"
+  ],
+  "author": "Daniel Kucal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ngx-ext/decorators/issues"
+  },
+  "homepage": "https://github.com/ngx-ext/decorators#readme",
+  "peerDependencies": {
+    "@angular/core": ">= 2"
+  },
+  "devDependencies": {
+    "@angular/core": ">= 2",
+    "@types/node": ">= 11",
+    "typescript": ">= 3"
+  }
+}
